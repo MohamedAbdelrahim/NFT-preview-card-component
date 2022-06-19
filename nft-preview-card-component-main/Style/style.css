@@ -1,0 +1,113 @@
+body{
+background-color: hsl(217, 54%, 11%) ;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: 700 px  ;
+}
+@media (max-width:375px){
+
+}
+@media (max-width:1440px){
+}
+
+
+.continer{
+display: flex;
+width: 100%;
+height: 750px;
+justify-content:center;
+align-items: center;
+
+
+}
+
+.primary{
+background-color:hsl(216, 50%, 16%) ;
+display: flex;
+flex-direction: column;
+width: 300px;
+height: 580px;
+border-radius: 10px;
+padding: 15px;
+box-shadow: 0px 0px 10px  20px hsl(215, 50%, 9%);
+
+}
+.img1 {
+   
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+  
+ 
+}
+
+.title{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 18px;
+}
+.par{
+
+  color:   hsl(215, 51%, 70%);
+font-size: 18px;
+}
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eth{
+    color:hsl(178, 100%, 50%) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.days{
+  color:   hsl(215, 51%, 70%);
+  color:hsl(178, 100%, 50%) ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.main2{
+
+display: flex;
+font-size: 18px;
+
+color:  hsl(0, 0%, 100%);
+}
+.img2{
+width: 15%;
+border: 1px solid hsl(0, 0%, 100%);
+border-radius: 50%;
+
+
+}
+
+.para{
+    color:  hsl(215, 51%, 70%);
+}
+
+.p1:hover{
+    color: hsl(178, 100%, 50%) ;
+    cursor: pointer;
+}
+.img1:hover{
+    color: hsl(178, 100%, 50%) ;
+    cursor: pointer;
+    background-color: hsl(178, 100%, 50%) ;
+    opacity: 0.1;
+}
+.line{
+height: 0.1px;
+background:  hsl(215, 51%, 70%);
+border-radius: 50%;
+}
